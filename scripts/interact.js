@@ -13,8 +13,8 @@ var jsonFile = "./artifacts/contracts/DataConsumerV3.sol/DataConsumerV3.json";
 var parsed= JSON.parse(fs.readFileSync(jsonFile));
 var abi = parsed.abi;
 
-// The address of the consumer contract which will provide the price of ETH on sepolia
-const addr = '0x69d3E8Cf39c5Ba9fACee5411101b73853dA221Bc'
+// FILL IN the address of the consumer contract which will provide the price of ETH on sepolia
+const addr = ''; //
 
 const getDataFeeds = async () => {
   //  ************* Group into function *********************
